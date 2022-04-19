@@ -16,7 +16,10 @@ GitHub is a largest online software development platform used for storing, track
 
 A fork is your own copy of a repository. Forks let you make changes to a project without affecting the original repository. Forking a repository is similar to copying a repository. 
 
-![][image](./images/git-fork-emphasis.png | =250x250)
+<p align="center">
+  <img src="./images/git-fork-emphasis.png" width="600" height="500">
+</p>
+
 
 ## Description
 

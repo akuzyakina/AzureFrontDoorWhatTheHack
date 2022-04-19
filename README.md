@@ -17,7 +17,7 @@ In this hack you will be solving the common problem that websites have with the 
 1. [Fork the code](Student/Challenge01.md)
    - Create/use existing GitHub account to create your own copy of the source code
 2. [Publish ContosoMasks to the Internet](Student/Challenge02.md)
-   - Provision Azure App Service to host the website, then deploy the source code to your App Service instnace
+   - Provision Azure App Service instance and deploy the source code
 3. [Move ContosoMasks closer to users](Student/Challenge03.md)
    - Create an Azure Front Door instance and route traffic to the origin 
 4. [Speed up the website](Student/Challenge04.md)

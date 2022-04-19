@@ -23,7 +23,7 @@ For this challenge we are going to:
 1. Demonstrate that you have caching enabled.
 2. Compare the page loading time between Azure App Service and Front Door endpoints. Is there any difference? Explain to your coach
    - Use https://gtmetrix.com to compare performance. Run test for one endpoint, then click "compare" and paste the second endpoint.
-4. Do 30-50 requests and show cache hit ratio to your coach
+4. Simulate 10-20 requests per team member and show cache hit ratio to your coach. What does cache hit ratio mean?
 
 ## Learning Resources
 

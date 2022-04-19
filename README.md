@@ -2,19 +2,12 @@
 
 ## Introduction
 
-The Internet is much like water, in one hand an amazing thing that provides life/capability for so much, but in the other hand can be the most destructive force in nature.  Large numbers of users, large size and/or number of resources on pages, malicious activity, site slows down the further away it is, or events triggering massive spikes in traffic are only a few of the problems **Azure Front Door** addresses.  This challenge based hack is intended to teach you how to evolve a simulated local web site (https://www.contosomasks.com) into a globally accelerated, protected web site with burst offset.
+The Internet is much like water, in one hand an amazing thing that provides life/capability for so much, but in the other hand can be the most destructive force in nature.  Large numbers of users, large size and/or number of resources on pages, malicious activity, site slows down the further away it is, or events triggering massive spikes in traffic are only a few of the problems that we need to adresss.  This challenge based hack is intended to teach you how to evolve a simulated local web site into a globally accelerated and protected web site. 
 
 ![image](https://user-images.githubusercontent.com/54835093/164018823-2d110aba-3052-4942-8713-ba9ec75b9d96.png)
 
 
 ## Learning Objectives
-In this hack you will solve common challenges for companies migrating to the cloud.
-
-Migrating to the cloud.
-Containerizing an application.
-Serverless-izing your application.
-DevOps-ing your application.
-
 
 In this hack you will be solving the common challenges for customers migrating their websites/webapps to the cloud:
 

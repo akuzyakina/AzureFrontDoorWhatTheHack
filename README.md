@@ -10,8 +10,8 @@ In this hack you will be solving the common problem that websites have with the 
 1. Fork the source code
 2. Provision an Azure App Service and deploy the website
 3. Provision an Azure Front Door 
-4. Provision a Static Web site with an Azure Storage Account
-5. Configure simple/complex routing rules and caching rules
+4. WORK IN PROGRESS Implement caching / Provision a Static Web site with an Azure Storage Account
+5. Configure simple/complex routing rules 
 
 ## Challenges
 1. [Fork the code](Student/Challenge01.md)

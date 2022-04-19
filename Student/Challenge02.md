@@ -48,7 +48,7 @@ For this challenge we are going to:
 - Demonstrate that your newly deployed Website is up and running
 
 ## Bonus task , if time permits
-Modify the source code to change the title from "ContosoMasks" to something new and make sure that title is updated on your website.
+- Modify the source code to change the heading from "Contoso Masks" to something new and make sure it is updated on your website.
 
 ## Learning Resources
 

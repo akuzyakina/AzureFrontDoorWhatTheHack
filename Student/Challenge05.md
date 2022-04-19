@@ -4,14 +4,9 @@
 
 ## Introduction
 
-User experience is dramatically better, you are seeing orders from all over the world come in. Your done right?  Nope, we remember now that the Internet can be a scary place...  You start seeing some really strange requests URL in your logs that end with:
+User experience is dramatically better, you are seeing orders from all over the world come in. Your done right?  Nope, we remember now that the Internet can be a scary place... 
 
-- %3Btype%20%25SYSTEMROOT%25%5Cwin.ini
-- %3Bvar%20cd%3Bvar%20d%3Dnew%20Date%28%29%3Bdo%7Bcd%3Dnew%20Date%28%29%3B%7Dwhile%28cd-d%3C8000%29
-- %3Bping%20-n%209%20localhost
-- %60%2Fbin%2Fcat%20%2Fetc%2Fpasswd%60
 
-Looks like someone is trying to snoop around ...
 
 This is where a Web Application Firewall (WAF) comes into play.  **Web Application Firewall** (Layer 7) refers to a capability (either a physical network appliance or a virtual network appliance) that can analyze and mitigate based on the payload of 1 to many packets that constitutes a specific HTTP/HTTPS request.  So instead of just being able to say "don't allow requests from IP Address X", it can be "don't allow GET requests to URL Y".  This is particularly powerful due to the nature of [complicated attacks that involve specific HTTP request patterns](https://en.wikipedia.org/wiki/Web_application_security) (either thru the Query String or posted body's) that are indicative to a particular web application platform.
 
@@ -37,6 +32,3 @@ For this challenge we are going to:
 ## Learning Resources
 
 - [Azure Front Door WAF](https://docs.microsoft.com/en-us/azure/web-application-firewall/afds/afds-overview)
-- [Azure Front Door Diagnostic Logs](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-diagnostics#diagnostic-logging)
-- [Azure Logging](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/platform-logs-overview)
-

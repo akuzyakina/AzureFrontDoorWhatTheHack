@@ -1,6 +1,6 @@
 # Challenge 2 - Publish ContosoMasks
 
- **[Home](../README.md)** - [Next Challenge [3] >](./Challenge03.md)
+[Previous Challenge [1] >](./Challenge01.md) **[Home](../README.md)** - [Next Challenge [3] >](./Challenge03.md)
 
 ## Pre-requisites
 

@@ -61,7 +61,7 @@ For this challenge we are going to:
 
 - Demonstrate the website working thru Front Door endpoint
   - ***HINT*** - You will see **x-azure-ref** in the Response Headers of each request to Front Door.
-- With 2 Browser windows open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the https://**YOURSITENAME**.azurewebsites.net/ vs https://YOURFRONTDOORDOMAIN-SOMESYMBOLS.z01.azurefd.net performance. Make sure to run it 3 times prior looking at a final result.
+- With 2 Browser windows open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the https://**YOURSITENAME**.azurewebsites.net/ vs https://**YOURFRONTDOOR**.z01.azurefd.net performance. Make sure to run it 3 times prior looking at a final result.
   - Compare the connect and TLS times. What has changed? Explain the difference to your coach
  
 ## If time permits: Advanced Challenge

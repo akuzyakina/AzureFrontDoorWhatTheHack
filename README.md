@@ -1,4 +1,4 @@
-# WhatTheHack : The Internet just happened to my website! 
+# WhatTheHack: Internet happened to my website! 
 
 ## Introduction
 

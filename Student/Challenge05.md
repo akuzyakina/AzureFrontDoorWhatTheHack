@@ -1,6 +1,6 @@
 # Challenge 5 - We are under attack!
 
-[< Previous Challenge [2]](./Challenge02.md)&nbsp;&nbsp;-&nbsp;&nbsp;**[Home](../README.md)**
+[< Previous Challenge [4]](./Challenge04.md)&nbsp;&nbsp;-&nbsp;&nbsp;**[Home](../README.md)**
 
 ## Introduction
 
@@ -27,16 +27,12 @@ For the purpose of this challenge, you will go straight to Prevention mode.  You
 
 For this challenge we are going to:
 1. Provision a Azure Web Application Firewall Policy
-   1. Configure the Default Rule Set
-   2. Add a Custom rule to allow only the country you are currently located.
+   - Configure the Default Rule Set
+   - Add a Custom rule to allow only the country you are currently located.
 
 ## Success Criteria
 
-- Demonstrate the website still works thru Front Door via https://frontdoor.***SITENAME***.contosomasks.com 
-  - ***HINT*** - You will see **x-azure-ref** in the Response Headers of each request to Front Door.
-- Show distinct list of rules that were used in  requests with the count of offenses in the Azure logs.
 - Demonstrate the geofiltering rule is blocking requests for countries other than your own
-
 
 ## Learning Resources
 

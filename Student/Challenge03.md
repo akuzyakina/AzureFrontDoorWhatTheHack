@@ -6,8 +6,6 @@
 
 Now that we have the site up and running, it's time to start addressing the situation.  Contoso Masks website has started to trend and LOTS of people are hitting the website from all over the world.  Users are complaining about either taking a really long time to load the website or not able to load at all.
 
-### Global Reach of a website
-
 For the purpose of this description, lets pretend Contoso Masks' website is hosted in the Central US Azure Data Center only, somewhere the State of Iowa.  If a user is accessing the website in the middle of the United States, most likely has a descent experience.  But what happens when the website is accessed from Germany? 
 
 When talking about the performance characteristic of a single resource request (a single GET/POST/etc...), there are 6 numbers that used to describe it:
@@ -25,6 +23,8 @@ When talking about the performance characteristic of a single resource request (
 - #5 is basically what your web application is processing + transit time for the first byte of response.  Once you've optimized the application, we have 5 left.
 
 #### Where Front Door helps
+
+**EXPLAIN WHAT IS FRONT DOOR IN A COUPLE OF SENTENCES, ADD IMAGE**
 
 Since Microsoft is the [2nd largest Telecommunications company](https://docs.microsoft.com/en-us/azure/networking/microsoft-global-network) by measure of the amount of [Dark Fibre](https://en.wikipedia.org/wiki/Dark_fibre) run around the planet, you can use this as your accelerated pathway to your website.
 
@@ -44,7 +44,7 @@ For this challenge we are going to:
 
 - Demonstrate the website working thru Front Door endpoint
   - ***HINT*** - You will see **x-azure-ref** in the Response Headers of each request to Front Door.
-- With 2 Browser windows open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the https://**YOURSITENAME**.azurewebsites.net/ vs https://**YOURFRONTDOOR**.z01.azurefd.net performance. Make sure to run it 3 times prior looking at a final result.
+- With 2 Browser windows open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the performance of your AppService endpoint vs . Make sure to run it 3 times prior looking at a final result.
   - Compare the connect and TLS times. What has changed? Explain the difference to your coach
  
 ## If time permits: Advanced Challenge

@@ -16,7 +16,7 @@ What are forks?
 
 A fork is your own copy of a repository. Forks let you make changes to a project without affecting the original repository. Forking a repository is similar to copying a repository. 
 
-![image](https://user-images.githubusercontent.com/54835093/163947542-c9275a4d-72c2-453d-b53b-fef562e79186.png)
+![image](./images/git-fork-emphasis.png)
 
 ## Description
 

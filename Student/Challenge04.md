@@ -13,7 +13,7 @@ Caching is the concept of storing a response from your website for a configured 
 First, take a read of the [What is a CDN?](./whatiscdn.md) article, as Azure Front Door is a Dynamic Site Acceleration CDN Service.  And
 
 How to identify page load time? 
-Use F12 Developer tools
+Use https://gtmetrix.com/ to compare webpage performance
 
 ## Description
 

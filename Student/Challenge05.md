@@ -8,6 +8,8 @@ User experience is dramatically better, you are seeing orders from all over the 
 
 **bla-bla Dima please write something here...**
 
+explain the difference between prevention and detection
+
 ## Description
 
 For this challenge we are going to:

@@ -30,9 +30,7 @@ In this hack you will be solving the common challenges for customers migrating t
    - Use the Rules Engine in Front Door to filter requests by geography
 
 ## Prerequisites
-- Your own Azure subscription with Owner access
-  - Or a Resource Group with Contributor access and ability to manage [Resource Providers](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types)
-- GitHub account 
+- An Azure subscription with Owner/Contributor access 
 
 ## Contributors
 - Andy Wahrenberger

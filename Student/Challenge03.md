@@ -48,7 +48,7 @@ For this challenge we are going to:
 
 - Demonstrate that only the Azure Front Door service can access your website
 
-# What is not in the scope of this challenge
+## What is out of the scope in this challenge
 - There is no need to implement Caching at the time.
 - We aren't focusing on regional data compliance issues (GDPR for example). 
 

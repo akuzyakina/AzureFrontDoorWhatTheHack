@@ -4,8 +4,9 @@
 
 The Internet is much like water, in one hand an amazing thing that provides life/capability for so much, but in the other hand can be the most destructive force in nature.  Large numbers of users, large size and/or number of resources on pages, malicious activity, site slows down the further away it is, or events triggering massive spikes in traffic are only a few of the problems that we need to adresss.  This challenge based hack is intended to teach you how to evolve a simulated local web site into a globally accelerated and protected web site. 
 
-![image](https://user-images.githubusercontent.com/54835093/164018823-2d110aba-3052-4942-8713-ba9ec75b9d96.png)
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54835093/164018823-2d110aba-3052-4942-8713-ba9ec75b9d96.png" width="600" height="350">
+</p>
 
 ## Learning Objectives
 

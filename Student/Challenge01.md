@@ -24,7 +24,7 @@ A fork is your own copy of a repository. Forks let you make changes to a project
 ## Description
 
 For this challenge we are going to:
-1. Fork the source code of the website from someone's repository to your own
+1. Fork the source code of the website from https://github.com/dmtyry/contosomasks
 
 ## Success Criteria
 
@@ -34,7 +34,8 @@ For this challenge we are going to:
 
 ## Learning Resources
 
-- [Domain Name System (DNS)](https://en.wikipedia.org/wiki/Domain_Name_System)
-- [Azure DNS Service](https://docs.microsoft.com/en-us/azure/dns/dns-overview)
-https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks
+- [Join GitHub](https://github.com/signup)
+- [Working with Forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks)
+- [Azure Portal](https://portal.azure.com)
+- [Highly available multiregion app on Azure - Microsoft Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/app-service-web-app/multi-region)
 

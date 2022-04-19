@@ -56,24 +56,18 @@ You will notice we aren't talking about caching yet, which is the concept of sto
 
 For this challenge we are going to:
 1. Provision a new Front Door resource for your website
-2. Create a Custom Domain in Front Door for you website with SSL, called frontdoor.***SITENAME***.contosomasks.com, where SITENAME is what you specified in Challenge 0.
-   1. **IMPORTANT** - Normally you migrate a DNS Name, like www, to Front Door.  For comparison purposes, we are using a different name for the Front Door implementation.
-  
 
 ## Success Criteria
 
-- Demonstrate the website working thru Front Door via https://frontdoor.***SITENAME***.contosomasks.com 
+- Demonstrate the website working thru Front Door
   - ***HINT*** - You will see **x-azure-ref** in the Response Headers of each request to Front Door.
-- Show requests that were logged thru Front Door's logs
-- With 2 Browser windows open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the www.***SITENAME***.contosomasks.com vs frontdoor.***SITENAME***.contosomasks.com performance.
+- With 2 Browser windows open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the https://**YOURSITENAME**.azurewebsites.net/ vs https://YOURFRONTDOORDOMAIN-SOMESYMBOLS.z01.azurefd.net performance.
   - ***HINT*** - Make sure to run it 3 times prior to looking a final results.
   - Compare the Connect and TLS times
 
 ## Learning Resources
 
 - [Azure Front Door](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-overview)
-- [Azure Front Door Diagnostic Logs](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-diagnostics#diagnostic-logging)
-- [Azure Logging](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/platform-logs-overview)
 - [What is a CDN?](./whatiscdn.md)
 
 ## Advanced Challenges

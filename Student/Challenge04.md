@@ -2,15 +2,16 @@
 
 [< Previous Challenge [3]](./Challenge03.md)&nbsp;&nbsp;-&nbsp;&nbsp;**[Home](../README.md)**&nbsp;&nbsp;-&nbsp;&nbsp;[Next Challenge [5] >](./Challenge05.md)
 
-#### Пока есть вопросы относительно такого типа кэширования, но сделать челлендж попробуйте.
-
 ## Introduction
 
 Things are going well.  The website is able to handle global traffic well  What else could go wrong?
 
 EXPLAIN CACHING, ADD IMAGE
-Caching is the concept of storing a response from your website for a configured period of time. It can greatly increase the end client performance and website utilizations. CDN level Caching caches the ***entire*** HTTP request, including cookies and headers. 
-First, take a read of the [What is a CDN?](./whatiscdn.md) article, as Azure Front Door is a Dynamic Site Acceleration CDN Service.  And
+
+<!---
+
+[//]: <> (Caching is the concept of storing a response from your website for a configured period of time. It can greatly increase the end client performance and website utilizations. CDN level Caching caches the ***entire*** HTTP request, including cookies and headers. First, take a read of the [What is a CDN?](./whatiscdn.md article, as Azure Front Door is a Dynamic Site Acceleration CDN Service.  And) 
+-->
 
 ## Description
 

@@ -29,17 +29,6 @@ For this challenge we are going to:
 1. Provision a Azure Web Application Firewall Policy
    1. Configure the Default Rule Set
    2. Add a Custom rule to allow only the country you are currently located.
-2. Run w3af_console (after the last command, it will take a few minutes and should see a lot of scrolling text)
-   - At the prompt "w3af>>>", type:  `profiles`
-   - At the prompt "w3af/profiles>>>", type:  `use audit_high_risk`
-   - At the prompt "w3af/profiles>>>", type:  `use OWASP_TOP10`
-   - At the prompt "w3af/profiles>>>", type:  `back`
-   - At the prompt "w3af>>>", type:  `target`
-   - At the prompt "w3af/config:target>>>", type (substitute your site name for SITENAME):  `set target https://frontdoor.***SITENAME***.contosomasks.com`
-  - At the prompt "w3af/config:target>>>", type `back`
-  - At the prompt "w3af>>>", type:  `start`
-3. With a Browser window open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the frontdoor.***SITENAME***.contosomasks.com performance.
-   - You should see several of the requests fail now for the 
 
 ## Success Criteria
 

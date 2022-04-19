@@ -8,7 +8,10 @@ Things are going well.  The website is able to handle global traffic well  What 
 
 EXPLAIN CACHING, ADD IMAGE
 Caching is the concept of storing a response from your website for a configured period of time. It can greatly increase the end client performance and website utilizations. CDN level Caching caches the ***entire*** HTTP request, including cookies and headers. 
-First, take a read of the [What is a CDN?](./whatiscdn.md) article, as Azure Front Door is a Dynamic Site Acceleration CDN Service.  And 
+First, take a read of the [What is a CDN?](./whatiscdn.md) article, as Azure Front Door is a Dynamic Site Acceleration CDN Service.  And
+
+How to identify page load time? 
+Use F12 Developer tools
 
 ## Description
 

@@ -25,7 +25,7 @@ In this hack you will be solving the common challenges for customers migrating t
 3. [Move ContosoMasks closer to users](Student/Challenge03.md)
    - Create an Azure Front Door instance and route traffic to the origin 
 4. [Speed up the website](Student/Challenge04.md)
-   - WORK IN PROGRESS Implement caching / Use a Static Web Site in Azure Storage and route specific traffic to it.
+   - Configure caching to optimize performance and reduce server load
 5. [You shall not pass!](Student/Challenge05.md)
    - Use the Rules Engine in Front Door to filter requests by geography
 

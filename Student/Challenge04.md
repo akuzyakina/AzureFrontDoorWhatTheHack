@@ -12,19 +12,18 @@ EXPLAIN CACHING, ADD IMAGE
 Caching is the concept of storing a response from your website for a configured period of time. It can greatly increase the end client performance and website utilizations. CDN level Caching caches the ***entire*** HTTP request, including cookies and headers. 
 First, take a read of the [What is a CDN?](./whatiscdn.md) article, as Azure Front Door is a Dynamic Site Acceleration CDN Service.  And
 
-How to identify page load time? 
-Use https://gtmetrix.com/ to compare webpage performance
-
 ## Description
 
 For this challenge we are going to: 
 - Configure Front Door to cache static content of your website
 
+
 ## Success Criteria
 
 1. Demonstrate that you have caching enabled.
 2. Compare the page loading time between Azure App Service and Front Door endpoints. Is there any difference? Explain to your coach
-3. Do 30-50 requests and show cache hit ratio to your coach
+   - Use https://gtmetrix.com to compare performance. Run test for one endpoint, then click "compare" and paste the second endpoint.
+4. Do 30-50 requests and show cache hit ratio to your coach
 
 ## Learning Resources
 

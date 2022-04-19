@@ -8,13 +8,20 @@ The Internet is much like water, in one hand an amazing thing that provides life
 
 
 ## Learning Objectives
-In this hack you will be solving the common problem that websites have with the Front Door services from Azure:
+In this hack you will solve common challenges for companies migrating to the cloud.
 
-1. Fork the source code
-2. Provision an Azure App Service and deploy the website
-3. Provision an Azure Front Door 
-4. WORK IN PROGRESS Implement caching / Provision a Static Web site with an Azure Storage Account
-5. Configure simple/complex routing rules 
+Migrating to the cloud.
+Containerizing an application.
+Serverless-izing your application.
+DevOps-ing your application.
+
+
+In this hack you will be solving the common challenges for customers migrating their websites/webapps to the cloud:
+
+- Getting source code ready
+- Provisioning hosting option and deploying the app
+- Optimizing performance
+- Configuring firewall to secure the website
 
 ## Challenges
 1. [Fork the code](Student/Challenge01.md)

@@ -1,4 +1,4 @@
-# Challenge 3 - Provision your Front Door
+# Challenge 3 - Move ContosoMasks closer to customers
 
 [< Previous Challenge [2]](./Challenge02.md)&nbsp;&nbsp;-&nbsp;&nbsp;**[Home](../README.md)**&nbsp;&nbsp;-&nbsp;&nbsp;[Next Challenge [4] >](./Challenge04.md)
 
@@ -55,15 +55,14 @@ You will notice we aren't talking about caching yet, which is the concept of sto
 ## Description
 
 For this challenge we are going to:
-1. Provision a new Front Door resource for your website
-2. 
+- Provision a new Front Door resource for your website
 
 ## Success Criteria
 
-- Demonstrate the website working thru Front Door
+- Demonstrate the website working thru Front Door endpoint
   - ***HINT*** - You will see **x-azure-ref** in the Response Headers of each request to Front Door.
 - With 2 Browser windows open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the https://**YOURSITENAME**.azurewebsites.net/ vs https://YOURFRONTDOORDOMAIN-SOMESYMBOLS.z01.azurefd.net performance. Make sure to run it 3 times prior looking at a final result.
-  - Compare the Connect and TLS times
+  - Compare the connect and TLS times. What has changed? Explain the difference to your coach
  
 ## If time permits: Advanced Challenge
 
@@ -72,6 +71,4 @@ For this challenge we are going to:
 ## Learning Resources
 
 - [Azure Front Door](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-overview)
-- [What is a CDN?](./whatiscdn.md)
-
-
+- [Quickstart: Create an Azure Front Door service using Azure Portal](https://docs.microsoft.com/en-us/azure/frontdoor/quickstart-create-front-door)

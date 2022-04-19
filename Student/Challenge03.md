@@ -30,9 +30,6 @@ Since Microsoft is the [2nd largest Telecommunications company](https://docs.mic
 
 There are 2 primary benefits: 
 1. By moving the *"Server"* closest to the user (the Point of Presence), the per user Connect (#1) and TLS Handshake (#2) happens closest to the user. 
-  - Here are the before and after Front door implementations for a website, using a Germany => Central US test to illustrate:
-    - Before Front Door: ![alt](./images/WithoutFrontDoor.png)
-    - After Front Door: ![alt](./images/FrontDoor.png)
 2. For global (and regional performance), taking advantage of the private pathing thru Microsoft's network provides a way to predictably accelerate requests to and from your website.  Public internet routing is reliable from the aspect of getting your requests back and forth, but unpredictable from a performance perspective.
 
 ## Description
@@ -45,7 +42,7 @@ For this challenge we are going to:
 - Demonstrate the website working thru Front Door endpoint
   - ***HINT*** - You will see **x-azure-ref** in the Response Headers of each request to Front Door.
 - With 2 Browser windows open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the performance of your AppService endpoint vs . Make sure to run it 3 times prior looking at a final result.
-  - Compare the connect and TLS times. What has changed? Explain the difference to your coach
+  - Compare the Connect and TLS times. What has changed? Explain the difference to your coach
  
 ## If time permits: Advanced Challenge
 

@@ -2,6 +2,11 @@
 
 [< Previous Challenge [3]](./Challenge03.md)&nbsp;&nbsp;-&nbsp;&nbsp;**[Home](../README.md)**&nbsp;&nbsp;-&nbsp;&nbsp;[Next Challenge [5] >](./Challenge05.md)
 
+
+
+## PLEASE SKIP THIS CHALLENGE 
+
+
 ## Introduction
 
 Things are going well.  The website is able to handle global traffic well and you are keeping the bad traffic out.  What else could go wrong?

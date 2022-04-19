@@ -20,7 +20,7 @@ In this hack you will be solving the common challenges for customers migrating t
 ## Challenges
 1. [Fork the code](Student/Challenge01.md)
    - Create/use existing GitHub account to create your own copy of the source code
-2. [Let the Internet see ContosoMasks](Student/Challenge02.md)
+2. [Publish ContosoMasks website to the Internet](Student/Challenge02.md)
    - Provision Azure App Service instance and deploy the source code
 3. [Move ContosoMasks closer to users](Student/Challenge03.md)
    - Create an Azure Front Door instance and route traffic to the origin 

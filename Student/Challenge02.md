@@ -5,8 +5,7 @@
 ## Pre-requisites
 
 - Azure subscription
-- Your own GitHub repo with the source code of ContosoMasks:
-- Microsoft Edge Web Browser
+- Your own GitHub repo with the source code of ContosoMasks
 
 ## Introduction
 
@@ -56,11 +55,10 @@ Use the link below to deploy the solution to your resource group.
 ## Success Criteria
 
 - Show that you can load w3af and display the help
-  - Running w3af_console then the command **help**
 - Show the newly deployed resources in the Azure Portal
-  - Highlighting the **www** record in your new Azure DNS Zone
-- Demonstrate your new version of the Contoso Website loads
+- Demonstrate that your Contoso Website loads
 - Show the "waterfall" of the one of the Images in the Dev Tools of your Web Browser 
+- **If time permits** modify the source code to change "ContosoMasks" title to your.
 
 
 ## Learning Resources

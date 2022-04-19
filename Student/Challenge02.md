@@ -1,4 +1,4 @@
-# Challenge 2 - Setup your Environment and Discover
+# Challenge 2 - Publish ContosoMasks
 
  **[Home](../README.md)** - [Next Challenge [3] >](./Challenge03.md)
 

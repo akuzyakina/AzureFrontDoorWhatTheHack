@@ -20,7 +20,7 @@ In this hack you will be solving the common problem that websites have with the 
    - Provision Azure App Service to host the website, then deploy the source code to your App Service instnace
 3. [Move ContosoMasks closer to users](Student/Challenge03.md)
    - Create an Azure Front Door instance and route traffic to the origin 
-4. [Speed up the website!](Student/Challenge04.md)
+4. [Speed up the website](Student/Challenge04.md)
    - Use a Static Web Site in Azure Storage and route specific traffic to it.
 5. [You shall not pass!](Student/Challenge05.md)
    - Use the Rules Engine in Front Door to filter requests by geogrpaphy

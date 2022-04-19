@@ -43,12 +43,8 @@ For this challenge we are going to:
   - ***HINT*** - You will see **x-azure-ref** in the Response Headers of each request to Front Door.
 - With 2 Browser windows open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the performance of your AppService endpoint vs . Make sure to run it 3 times prior looking at a final result.
   - Compare the Connect and TLS times. What has changed? Explain the difference to your coach
- 
-## If time permits: Advanced Challenge
 
-- Demonstrate that only the Azure Front Door service can access your website
-
-## What is out of the scope in this challenge
+## What is out of scope in this challenge
 - There is no need to implement Caching at the time.
 - We aren't focusing on regional data compliance issues (GDPR for example). 
 

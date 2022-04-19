@@ -1,4 +1,4 @@
-# Challenge 1 - Setup your Environment and Discover
+# Challenge 2 - Setup your Environment and Discover
 
  **[Home](../README.md)** - [Next Challenge [2] >](./Challenge02.md)
 

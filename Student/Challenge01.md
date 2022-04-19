@@ -24,13 +24,13 @@ A fork is your own copy of a repository. Forks let you make changes to a project
 ## Description
 
 For this challenge we are going to:
-1. Fork the source code of the website from https://github.com/dmtyry/contosomasks
+- Fork the source code of the website from https://github.com/dmtyry/contosomasks
 
 ## Success Criteria
 
-- Demonstrate your coach that you have code in your repository
-- You should be able to show your Azure subscription
-- You should be able to demonstrate your understanding of the solution blueprint to your coach
+1. Demonstrate your coach that you have code in your repository
+2. You should be able to show your Azure subscription
+3. You should be able to demonstrate your understanding of the solution blueprint to your coach
 
 ## Learning Resources
 

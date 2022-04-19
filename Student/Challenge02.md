@@ -29,7 +29,7 @@ Azure App Service hosting the **www** Web site of your instance of Contoso Masks
 For this challenge we are going to:
 - Deploy the App Service instance
 - Publish the source code to App Service by setting up GitHub integration
-- Visit your newly deployed website
+- Check out your newly deployed website
 
 ## Deploy the Website 
 

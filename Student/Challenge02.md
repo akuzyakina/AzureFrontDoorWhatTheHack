@@ -4,18 +4,9 @@
 
 ## Pre-requisites
 
-- Your own Azure subscription with Owner access
-  - Or a Resource Group with Contributor access and ability to manage [Resource Providers](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types)
-- Linux Instance, can be either:
-  - Running Windows Subsystem for Linux (WSL) 1.0 or 2.0
-  - Running on Mac
-  - Running a Linux VM in Azure ([link](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal))
-- Install [w3af](https://docs.w3af.org/en/latest/index.html) on that Linux Instance ([link](https://docs.w3af.org/en/latest/install.html))
-  - This will be used to exercise the WAF
-  - Just need the console version running
-- Some form of Chromium Web Browser installed
-  - [Microsoft Edge](https://www.microsoft.com/en-us/edge)
-  - [Google Chrome](https://www.google.com/chrome/)
+- Azure subscription
+- Your own GitHub repo with the source code of ContosoMasks:
+- Microsoft Edge Web Browser
 
 ## Introduction
 

@@ -1,6 +1,6 @@
 # Challenge 2 - Setup your Environment and Discover
 
- **[Home](../README.md)** - [Next Challenge [2] >](./Challenge02.md)
+ **[Home](../README.md)** - [Next Challenge [3] >](./Challenge03.md)
 
 ## Pre-requisites
 

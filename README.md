@@ -20,22 +20,15 @@ In this hack you will be solving the common problem that websites have with the 
    - Provision Azure App Service to host the website, then deploy the source code to your App Service instnace
 3. [Provision an Azure Front Door ](Student/Challenge03.md)
    - Create an Azure Front Door instance and route traffic to the origin 
-4. [Offload traffic for a high traffic event](Student/Challenge04.md)
+4. [Implement caching](Student/Challenge04.md)
    - Use a Static Web Site in Azure Storage and route specific traffic to it.
-5. [Cache Static Assets](Student/Challenge05.md)
-   - Use the Rules Engine in Front Door to cache some of the resources of your site
+5. [Apply geofiltering](Student/Challenge05.md)
+   - Use the Rules Engine in Front Door to filter requests by geogrpaphy
 
 ## Prerequisites
 - Your own Azure subscription with Owner access
   - Or a Resource Group with Contributor access and ability to manage [Resource Providers](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types)
 - GitHub account 
-- Microsoft Edge Web Browser installed
-  
-## Repository Contents
-- ./Student/Resources
-  - code and templates needed for challenges.
-- ./Student/images
-  - Images for the student's guide
 
 ## Contributors
 - Andy Wahrenberger

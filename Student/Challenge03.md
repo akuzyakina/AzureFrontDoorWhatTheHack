@@ -55,7 +55,7 @@ You will notice we aren't talking about caching yet, which is the concept of sto
 ## Description
 
 For this challenge we are going to:
-- Provision Azure Front Door resource for your website
+- Provision Azure Front Door resource and configure it to route requests to your website
 
 ## Success Criteria
 

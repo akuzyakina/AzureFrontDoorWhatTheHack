@@ -4,6 +4,9 @@
 
 The Internet is much like water, in one hand an amazing thing that provides life/capability for so much, but in the other hand can be the most destructive force in nature.  Large numbers of users, large size and/or number of resources on pages, malicious activity, site slows down the further away it is, or events triggering massive spikes in traffic are only a few of the problems **Azure Front Door** addresses.  This challenge based hack is intended to teach you how to evolve a simulated local web site (https://www.contosomasks.com) into a globally accelerated, protected web site with burst offset.
 
+![image](https://user-images.githubusercontent.com/54835093/164018823-2d110aba-3052-4942-8713-ba9ec75b9d96.png)
+
+
 ## Learning Objectives
 In this hack you will be solving the common problem that websites have with the Front Door services from Azure:
 

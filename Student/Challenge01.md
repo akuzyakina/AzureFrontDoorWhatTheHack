@@ -4,16 +4,19 @@
 
 ## Pre-requisites
 
-- Your need GitHub account
+- Your personal GitHub handle (account)
 
 ## Introduction
 
-In order for us to get started, let's talk a few basics.  Web Browsers are the general clients used to interact with Web Sites.  For a Web Browser to load a web site, generally you need the following:
-- A Domain Name System (DNS) Name
-  - This lets your Web Browser take ***www.contosomasks.com*** and turn that into an IP Address to then talk to.
-- Something to host your content/website
-  - There are lots of choices to run the application code and/or store the JavaScript, CSS, and HTML files.
-  
+What is GitHub?
+
+GitHub is a largest online software development platform used for storing, tracking, and collaborating on software projects. As of November 2021, GitHub had over 73 million developers and more than 200 million repositories (including at least 28 million public repositories). GitHub offers free and paid products for storing and collaborating on code. Some products apply only to personal accounts, while other plans apply only to organization and enterprise accounts. With GitHub Free for personal accounts, you can work with unlimited collaborators on unlimited public repositories with a full feature set, and on unlimited private repositories with a limited feature set.
+
+What are forks?
+
+A fork is your own copy of a repository. Forks let you make changes to a project without affecting the original repository. Forking a repository is similar to copying a repository. 
+
+![image](https://user-images.githubusercontent.com/54835093/163947542-c9275a4d-72c2-453d-b53b-fef562e79186.png)
 
 ## Description
 
@@ -30,5 +33,5 @@ For this challenge we are going to:
 
 - [Domain Name System (DNS)](https://en.wikipedia.org/wiki/Domain_Name_System)
 - [Azure DNS Service](https://docs.microsoft.com/en-us/azure/dns/dns-overview)
-
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks
 

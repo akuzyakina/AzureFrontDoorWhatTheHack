@@ -15,7 +15,7 @@ For this challenge we are going to:
 
 ## Success Criteria
 
-- Demonstrate that requests coming from countries other than your own are blocked.
+- Demonstrate that requests coming from countries other than your own are being blocked.
 
 ## Learning Resources
 

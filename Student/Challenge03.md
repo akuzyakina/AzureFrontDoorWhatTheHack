@@ -1,4 +1,4 @@
-# Challenge 2 - Provision your Front Door
+# Challenge 3 - Provision your Front Door
 
 [< Previous Challenge [1]](./Challenge01.md)&nbsp;&nbsp;-&nbsp;&nbsp;**[Home](../README.md)**&nbsp;&nbsp;-&nbsp;&nbsp;[Next Challenge [3] >](./Challenge03.md)
 

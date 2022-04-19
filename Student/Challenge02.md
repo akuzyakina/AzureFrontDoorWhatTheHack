@@ -9,20 +9,31 @@
 
 ## Introduction
 
-We're going to setup a copy of the original Contoso Masks website. 
-
-**WORK IN PROGRESS**
-
-In order for us to get started, let's talk a few basics. Web Browsers are the general clients used to interact with Web Sites. For a Web Browser to load a web site, generally you need the following:
-- A Domain Name System (DNS) Name
+When it comes to publishing a website to the Internet, we need to keep in mind a few basics:
+Web Browsers (Microsoft Edge, Google Chrome, Mozilla Firefox etc) are the general clients used to interact with Web Sites. For a Web Browser to load a web site, generally you need the following:
+- A Domain Name 
   - This lets your Web Browser take ***www.contosomasks.com*** and turn that into an IP Address to then talk to.
 - Something to host your content/website
   - There are lots of choices to run the application code and/or store the JavaScript, CSS, and HTML files.
 
-Azure App Service hosting the **www** Web site of your instance of Contoso Masks.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54835093/164078163-e50c3538-a039-4cbb-9277-41e60caa83e0.png" width="550" height="300">
+</p>
 
-**PLACEHOLDER FOR AN IMAGE EXPLAINING HOW WEBHOSTING WORKS"
+Fortunately, Azure has one solution (actually, several solutions) for all of the above!
 
+**Azure App Service** is a fully managed platform as a service (PaaS) designed for hosting web sites, web applications, REST API and many other things. 
+
+Key features of Azure App Service:
+- Azure App Service supports multiple languages and frameworks - ASP.NET, ASP.NET Core, Java, Ruby, Node.js, PHP, Python and PowerShell.
+- DevOps optimization - integration with Azure DevOps, GitHub, BitBucket, Docker Hub, or Azure Container Registry.
+- Autoscaling capabilities
+- Integration with Virtual Networks
+and dozens of others!
+
+Ok, we've got an option (some kind of Server) to host website. But how to get the code to this server?
+
+Typically, there are several options to achieve that: deploy via FTP, use some IDE plugins, but the most modern way is to use **Continious Deployment** - software engineering approach in which software is delivered through automated deployments. Modern cloud services (such as Azure App Service) provides **out-of-the box functionality** to configure autodeployment of your source code to the App Service instance! 
 
 ## Description
 
@@ -34,11 +45,13 @@ For this challenge we are going to:
 ## Success Criteria
 
 - Show the newly deployed resources in the Azure Portal
-- Demonstrate that your Contoso Website loads
-- **If time permits, bonus task** modify the source code to change the title from "ContosoMasks" to something new and make sure that title is updated on your website.
+- Demonstrate that your newly deployed Website is up and running
+
+## Bonus task , if time permits
+Modify the source code to change the title from "ContosoMasks" to something new and make sure that title is updated on your website.
 
 ## Learning Resources
 
 - [Domain Name System (DNS)](https://en.wikipedia.org/wiki/Domain_Name_System)
-- [Azure DNS Service](https://docs.microsoft.com/en-us/azure/dns/dns-overview)
-
+https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?tabs=net60&pivots=development-environment-vs
+https://docs.microsoft.com/en-us/azure/app-service/deploy-continuous-deployment?tabs=github

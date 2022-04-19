@@ -2,6 +2,8 @@
 
 [< Previous Challenge [3]](./Challenge03.md)&nbsp;&nbsp;-&nbsp;&nbsp;**[Home](../README.md)**&nbsp;&nbsp;-&nbsp;&nbsp;[Next Challenge [5] >](./Challenge05.md)
 
+#### Пока есть вопросы относительно такого типа кэширования, но сделать челлендж попробуйте.
+
 ## Introduction
 
 Things are going well.  The website is able to handle global traffic well  What else could go wrong?
@@ -20,8 +22,9 @@ For this challenge we are going to:
 
 ## Success Criteria
 
-1. Compare the time of page loading between Azure App Service endpoint and Front Door endpoint. Is there any difference?
-2. Do 30-50 requests and show cache hit ratio to your coach
+1. Demonstrate that you have caching enabled.
+2. Compare the page loading time between Azure App Service and Front Door endpoints. Is there any difference? Explain to your coach
+3. Do 30-50 requests and show cache hit ratio to your coach
 
 ## Learning Resources
 

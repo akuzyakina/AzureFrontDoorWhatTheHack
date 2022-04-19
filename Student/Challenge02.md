@@ -1,4 +1,4 @@
-# Challenge 2 - Publish ContosoMasks
+# Challenge 2 - Publish ContosoMasks website
 
 [< Previous Challenge [1]](./Challenge01.md) - **[Home](../README.md)** - [Next Challenge [3] >](./Challenge03.md)
 

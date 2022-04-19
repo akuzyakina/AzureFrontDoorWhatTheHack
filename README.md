@@ -26,7 +26,7 @@ In this hack you will be solving the common challenges for customers migrating t
    - Create an Azure Front Door instance and route traffic to the origin 
 4. [Speed up the website](Student/Challenge04.md)
    - Configure caching to optimize performance and reduce server load
-5. [You shall not pass!](Student/Challenge05.md)
+5. [My life my rules](Student/Challenge05.md)
    - Use the Rules Engine in Front Door to filter requests by geography
 
 ## Prerequisites

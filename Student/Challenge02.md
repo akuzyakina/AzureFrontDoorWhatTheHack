@@ -9,7 +9,7 @@
 
 ## Introduction
 
-When it comes to publishing a website to the Internet, we need to keep in mind a few basics:
+When it comes to publishing a website to the Internet, we need to keep in mind a few basics:<br\>
 Web Browsers (Microsoft Edge, Google Chrome, Mozilla Firefox etc) are the general clients used to interact with Web Sites. For a Web Browser to load a web site, generally you need the following:
 - A Domain Name 
   - This lets your Web Browser take ***www.contosomasks.com*** and turn that into an IP Address to then talk to.
@@ -28,7 +28,7 @@ Key features of Azure App Service:
 - Azure App Service supports multiple languages and frameworks - ASP.NET, ASP.NET Core, Java, Ruby, Node.js, PHP, Python and PowerShell.
 - DevOps optimization - integration with Azure DevOps, GitHub, BitBucket, Docker Hub, or Azure Container Registry.
 - Autoscaling capabilities
-- Integration with Virtual Networks
+- Integration with Virtual Networks <br\>
 and dozens of others!
 
 Ok, we've got an option (some kind of Server) to host website. But how to get the code to this server?
@@ -53,5 +53,6 @@ Modify the source code to change the title from "ContosoMasks" to something new 
 ## Learning Resources
 
 - [Domain Name System (DNS)](https://en.wikipedia.org/wiki/Domain_Name_System)
-https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?tabs=net60&pivots=development-environment-vs
-https://docs.microsoft.com/en-us/azure/app-service/deploy-continuous-deployment?tabs=github
+- [App Service QuickStart: Deploy .NET Core app](https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?tabs=net60&pivots=development-environment-vs)
+- [Set up Continious Deployment with GitHub](https://docs.microsoft.com/en-us/azure/app-service/deploy-continuous-deployment?tabs=github)
+

@@ -13,11 +13,12 @@ explain the difference between prevention and detection
 ## Description
 
 For this challenge we are going to:
-- Configure Front Door to allow requests only from the specific country.
+- Configure Front Door to allow requests only from the specific country. <br/>***HINT*** ***There is no documentation explaining how to configure this using Azure Portal, but it is possible***
 
 ## Success Criteria
 
 - Demonstrate that requests coming from countries other than your own are being blocked.
+
 
 ## Learning Resources
 

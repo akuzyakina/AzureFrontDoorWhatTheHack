@@ -9,7 +9,7 @@
 
 ## Introduction
 
-When it comes to publishing a website to the Internet, we need to keep in mind a few basics:<br\>
+When it comes to publishing a website to the Internet, we need to keep in mind a few basics:<br/>
 Web Browsers (Microsoft Edge, Google Chrome, Mozilla Firefox etc) are the general clients used to interact with Web Sites. For a Web Browser to load a web site, generally you need the following:
 - A Domain Name 
   - This lets your Web Browser take ***www.contosomasks.com*** and turn that into an IP Address to then talk to.

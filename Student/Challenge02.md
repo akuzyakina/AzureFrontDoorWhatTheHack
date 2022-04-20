@@ -47,8 +47,10 @@ For this challenge we are going to:
 - Show the newly deployed resources in the Azure Portal
 - Demonstrate that your website is up and running
 
+ <!--
 ## Bonus task , if time permits
 - Modify the source code to change the heading from "Contoso Masks" to something new and make sure it is updated on your website.
+-->
 
 ## Learning Resources
 

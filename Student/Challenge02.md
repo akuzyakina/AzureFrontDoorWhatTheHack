@@ -25,10 +25,10 @@ Fortunately, Azure has one solution (actually, several solutions) for all of the
 **Azure App Service** is a fully managed platform as a service (PaaS) designed for hosting web sites, web applications, REST API and many other things. 
 
 Key features of Azure App Service:
-- Azure App Service supports multiple languages and frameworks - ASP.NET, ASP.NET Core, Java, Ruby, Node.js, PHP, Python and PowerShell.
-- DevOps optimization - integration with Azure DevOps, GitHub, BitBucket, Docker Hub, or Azure Container Registry.
-- Autoscaling capabilities
-- Integration with Virtual Networks <br\>
+- Supports multiple languages and frameworks - ASP.NET, ASP.NET Core, Java, Ruby, Node.js, PHP, Python and PowerShell.
+- Integrates with Azure DevOps, GitHub, BitBucket, Docker Hub, or Azure Container Registry.
+- Autoscalable out of the box
+- Can be injected to Virtual Networks <br\>
 and dozens of others!
 
 Ok, we've got an option (some kind of Server) to host website. But how to get the code to this server?

@@ -29,8 +29,7 @@ For this challenge we are going to:
 ## Success Criteria
 
 1. Demonstrate your coach that you have code in your repository
-2. You should be able to show your Azure subscription
-3. You should be able to demonstrate your understanding of the solution blueprint to your coach
+2. Explain your understanding of the solution blueprint to the coach
 
 ## Learning Resources
 

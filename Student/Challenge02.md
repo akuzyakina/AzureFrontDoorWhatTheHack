@@ -31,9 +31,9 @@ Key features of Azure App Service:
 - Can be injected to Virtual Networks <br\>
 and dozens of others!
 
-Ok, we've got an option (some kind of Server) to host website. But how to get the code to this server?
+Ok, we've decided where to host the website. But how to get the code to App Service?
 
-Typically, there are several options to achieve that: deploy via FTP, use some IDE plugins, but the most modern way is to use **Continious Deployment** - software engineering approach in which software is delivered through automated deployments. Modern cloud services (such as Azure App Service) provides **out-of-the box functionality** to configure autodeployment of your source code to the App Service instance! 
+There are several options: deploy via FTP, use some IDE plugins, but the most modern way is to use **Continious Deployment** - software engineering approach in which software is delivered through automated deployments. Modern cloud services (such as Azure App Service) provides **out-of-the box functionality** to configure autodeployment of your source code to the App Service instance! 
 
 ## Description
 

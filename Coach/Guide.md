@@ -22,6 +22,8 @@
 
 **Challenge 5**
 
-Это конфигруируется внутри front door в разделе Security Policies, добавляем правило, дальше внутри него переходим в custom rules - add new. Правило - if geolocation is Russia deny traffic.
+Это конфигруируется внутри front door в разделе Security Policies, добавляем правило, дальше внутри него переходим в custom rules - add new. Правило - if geolocation is not Russia deny traffic. Дальше можно воспользоваться тем же https://tools.keycdn.com/performance, либо заблокировать непосредственно Россию и попробовать зайти :)
+
+Возможно корпнет из офиса выводит из другой страны, на месте соориентируемся
 
 **Не забудьте сменить detection на prevention, иначе вас не будет блокировать.**

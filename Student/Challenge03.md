@@ -37,7 +37,7 @@ For this challenge we are going to:
 ## Success Criteria
 
 - Demonstrate the website working thru Front Door endpoint
-- With 2 Browser windows open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the performance of AppService and FrontDoor endpoints of your website. Make sure to run it 3 times prior looking at a final result. Compare the Connect and TLS times. What has changed? Explain to your coach
+- With 2 Browser windows open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the performance of AppService (XXX.azurewebsites.net) and FrontDoor (XXX.azurefd.net) endpoints of your website. Make sure to run it 3 times prior looking at a final result. Compare the Connect and TLS times. What has changed? Explain to your coach
 
 ## What is out of scope in this challenge
 - There is no need to implement Caching at the time.

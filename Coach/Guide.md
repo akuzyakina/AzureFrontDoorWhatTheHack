@@ -23,4 +23,5 @@
 **Challenge 5**
 
 Это конфигруируется внутри front door в разделе Security Policies, добавляем правило, дальше внутри него переходим в custom rules - add new. Правило - if geolocation is Russia deny traffic.
-**Не забудьте сменить detection на prevention, иначе вас не будет блокировать. **
+
+**Не забудьте сменить detection на prevention, иначе вас не будет блокировать.**

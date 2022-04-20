@@ -8,19 +8,16 @@ Now that we have the site up and running, it's time to start addressing the situ
 
 For the purpose of this description, lets pretend Contoso Masks' website is hosted in the Central US Azure Data Center only, somewhere the State of Iowa.  If a user is accessing the website in the middle of the United States, most likely has a descent experience.  But what happens when the website is accessed from Germany? 
 
-When talking about the performance characteristic of a single resource request (a single GET/POST/etc...), there are 6 numbers that used to describe it:
+When talking about the performance characteristic of a single resource request, there are 6 numbers that used to describe it:
 1. **DNS Lookup** - This is the time it takes the browser to perform a DNS lookup, or translating www.contosomasks.com to an IP Address.
 2. **Connect** - How long does it take for the Web Browser to establish a connection to "server" for the request.  Server is the external ***thing*** that is responding to the request.   *HINT* - This isn't always your webserver.
-3. **TLS Handshake** - How long does it take your Web Browser to safely establish a secure tunnel to the server.  The [Transport Layer Security (TLS) Handshake Protocol](https://docs.microsoft.com/en-us/windows/win32/secauthn/tls-handshake-protocol) is the established process to safely ensure when you go to www.contosomasks.com, you really are going to the real one.  (The internet can be a very dark place).  **The issue is, this is several round trips from Web Browser to server**
-   1. [Man in the middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) is one example of what this protects.
+3. **TLS Handshake** - How long does it take your Web Browser to safely establish a secure tunnel to the server. 
 4. **Send Request** - Time to transmit the HTTP Request.
-5. **Wait for Response** - Time for the First Byte of the response to be received.
-   1. Sometimes referred to as Time to First Byte [TTFB]
-6. **Receive Response** - Time for full payload to receive.
-   1. Sometimes referred to as Time to Last Byte [TTLB]
+5. **Wait for Response** - Time for the First Byte of the response to be received. (Sometimes referred to as Time to First Byte [TTFB])
+6. **Receive Response** - Time for full payload to receive (Sometimes referred to as Time to Last Byte [TTLB])
 
-#### Things you control with code of your website:
-- #5 is basically what your web application is processing + transit time for the first byte of response.  Once you've optimized the application, we have 5 left.
+#### Things you control with optimizing code of your website:
+- #5 is basically what your web application is processing + transit time for the first byte of response.
 
 #### Where Front Door helps
 

@@ -41,7 +41,7 @@ For this challenge we are going to:
 
 - Demonstrate the website working thru Front Door endpoint
   - ***HINT*** - You will see **x-azure-ref** in the Response Headers of each request to Front Door.
-- With 2 Browser windows open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the performance of your AppService endpoint vs . Make sure to run it 3 times prior looking at a final result.
+- With 2 Browser windows open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), compare the performance of AppService and FrontDoor endpoint of your website. Make sure to run it 3 times prior looking at a final result.
   - Compare the Connect and TLS times. What has changed? Explain the difference to your coach
 
 ## What is out of scope in this challenge

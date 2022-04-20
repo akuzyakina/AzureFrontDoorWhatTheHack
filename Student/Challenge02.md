@@ -40,12 +40,12 @@ There are several options: deploy via FTP, use some IDE plugins, but the most mo
 For this challenge we are going to:
 - Deploy the App Service instance
 - Publish the source code to App Service by setting up GitHub integration
-- Check out your newly deployed website
+- Check out your freshly deployed website
 
 ## Success Criteria
 
 - Show the newly deployed resources in the Azure Portal
-- Demonstrate that your newly deployed Website is up and running
+- Demonstrate that your website is up and running
 
 ## Bonus task , if time permits
 - Modify the source code to change the heading from "Contoso Masks" to something new and make sure it is updated on your website.
